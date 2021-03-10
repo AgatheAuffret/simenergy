@@ -1,0 +1,135 @@
+:root {
+    --light: #ffffff;
+    --background: #f2f2f2;
+    --deg1: #3023ae;
+    --deg2: rgba(214, 0, 255, 1);
+    --box_shadow: rgba(0, 0, 0, 0.11);
+    --footer_color: #1D176B;
+    --info_color: #1d184d;
+
+    --h2_size: 32px;
+    --h3_size: 28px;
+    --h4_size: 28px;
+    --p_size: 18px;
+
+    --box_radius: 40px;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+@media screen and (max-width: 480px){
+
+
+/*****************************************************************
+                BANNER
+*****************************************************************/
+    .navbar{
+        position: fixed;
+        width:100vw !important;
+        background: linear-gradient(90deg, var(--deg1) 20%, var(--deg2) 100%);
+    }
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .nav-link{
+        border : none  !important;
+        padding : 10px 20px  !important;
+    }
+
+    .navbar-collapse{
+        width: 100vw !important;
+        padding:10px !important
+    }
+
+    #home_section_0{
+        height:100vh;
+        background: linear-gradient(90deg, var(--deg1) 20%, var(--deg2) 100%);
+    }
+
+    #home_title{
+        flex-direction: column;
+        padding-top: 200px;
+        margin:0;
+    }
+
+    #home_title img {
+        width:100px;
+        margin:auto;
+    }
+    #home_title h1 {
+        font-size:42px;
+        margin:20px 0;
+    }
+
+    svg{
+        display:none;
+    }
+
+    #home_title {
+        animation: logo 1.5s;
+    }
+
+    #home_section_1 h2, #home_section_2 h2, #home_section_4 h2{
+        padding-top:20px;
+        width:auto;
+        text-align: center;
+        margin:0 10px ;
+    }
+
+    #home_section_1 p, #home_section_2 p, #home_section_2 h5, #home_section_2 h6 , #home_section_4 p{
+        padding:0;
+        margin:auto;
+        width: 60%;
+        padding-top:20px;
+    }
+
+    #home_section_2{
+        padding-bottom: 20px;
+        background: linear-gradient(90deg, var(--deg1) 20%, var(--deg2) 100%);
+    }
+
+    #home_section_2 #graphes_pc{
+        display:none;
+    }
+
+    #home_section_2 #graphes_mobile{
+        display:block;
+        width:90vw;
+        margin:auto;
+        padding-bottom: 20px;
+    }
+
+    #home_section_3 #card_section {
+        margin:0;
+    }
+
+    #home_section_3 .card {
+        position: inherit;
+        width: 90vw;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    #home_section_3 .card img {
+        margin-bottom: 20px;
+    }
+
+    #home_section_3 .card h4 {
+        margin-bottom: 20px;
+    }
+
+    #home_section_3 .card p {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    #home_section_3 #maAppInfos{
+        display:none;
+    }
+}

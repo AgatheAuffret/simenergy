@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue Regular'), url('BebasNeue Regular.woff') format('woff');
+}
+
+:root {
+    --light: #ffffff;
+    --background: #f2f2f2;
+    --deg1: #3023ae;
+    --deg2: rgba(214, 0, 255, 1);
+    --box_shadow: rgba(0, 0, 0, 0.11);
+    --footer_color: #1D176B;
+    --info_color: #1d184d;
+
+    --h2_size: 32px;
+    --h3_size: 28px;
+    --h4_size: 28px;
+    --p_size: 18px;
+
+    --box_radius: 40px;
+}
+
+
+body,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*****************************************************************
+                BANNER
+*****************************************************************/
+
+#home_section_0 {
+    height: 60vh;
+    background: linear-gradient(90deg, var(--deg1) 30%, var(--deg2) 100%);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(./visuels/menu.png) !important;
+}
+
+.active{
+    border:2px solid var(--light);
+    border-radius:var(--box_radius);
+}
+
+.nav-link{
+    margin:0;
+    padding: 10px 20px !important;
+}
+
+a.text-light:focus, a.text-light:hover{
+    color:var(--light) !important;
+    border:2px solid var(--light);
+    border-radius:var(--box_radius);
+    padding: 8px 18px !important;
+}
+
+#actif:hover{
+    border:none;
+    padding: 10px 20px !important;
+}
+
+svg {
+    background-color: var(--background);
+}
+
+#home_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px auto;
+    animation: logo 4s;
+    animation-direction: initial;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#home_title h1 {
+    font-size: 5rem;
+    margin-left: 60px;
+    font-family: 'Bebas Neue Regular';
+    color: var(--light);
+    letter-spacing: 10px;
+    align-self: center;
+}
+
+#home_title img {
+    width: 130px;
+}
+
+#home_section_1 {
+    background-color: var(--background);
+    padding-bottom: 100px;
+}
+
+#home_section_1 h2 {
+    font-family: 'Bebas Neue Regular';
+    color: var(--deg1);
+    font-size: var(--h2_size);
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#home_section_1 p {
+    font-size: var(--p_size);
+    color: var(--deg1);
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    padding-left: 100px;
+}
+
+
+/*****************************************************************
+                SECTION 2
+*****************************************************************/
+
+
+#home_section_2 {
+    background: linear-gradient(90deg, var(--deg1) 30%, var(--deg2) 100%);
+}
+
+#home_section_2 h2 {
+    font-family: 'Bebas Neue Regular';
+    color: var(--light);
+    font-size: var(--h2_size);
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#home_section_2 p {
+    font-size: var(--p_size);
+    color: var(--light);
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+#home_section_2 #graphes_pc {
+    width: 50%;
+    display: flex;
+    margin: 50px auto;
+}
+
+#home_section_2 #graphes_mobile{
+    display:none;
+}
+
+#home_section_2 h5 {
+    font-size: var(--p_size);
+    color: var(--light);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#home_section_2 h6 {
+    font-size: var(--p_size);
+    color: var(--light);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+/*****************************************************************
+                SECTION 3
+*****************************************************************/
+
+#home_section_3 {
+    background-color: var(--background);
+}
+
+#home_section_3 #card_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+
+#home_section_3 .card {
+    position: inherit;
+    width: 400px;
+    border-radius: var(--box_radius);
+    background-color: var(--light);
+    padding: 40px;
+    box-shadow: 5px 5px 5px var(--box_shadow);
+    margin: 20px;
+}
+
+#home_section_3 .card img {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#home_section_3 .card h4 {
+    font-family: 'Bebas Neue Regular';
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--deg1);
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#home_section_3 .card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--p_size);
+    color: rgb(56, 56, 56);
+    padding: 0 40px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+#home_section_3 .card a {
+    font-size: var(--p_size);
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid var(--deg1);
+    border-radius: var(--box_radius);
+    margin: auto;
+    color: var(--deg1);
+}
+
+#home_section_3 .card a:hover {
+    color: var(--light);
+    text-decoration: none;
+    background-color: var(--deg1);
+    transition-duration: 0.5s;
+}
+
+/*****************************************************************
+                SECTION 4
+*****************************************************************/
+
+#home_section_4 {
+    background-color: var(--background);
+    padding-bottom: 50px;
+}
+
+#home_section_4 h2 {
+    padding-top: 50px;
+    font-family: 'Bebas Neue Regular';
+    color: var(--deg1);
+    font-size: var(--h2_size);
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#home_section_4 p {
+    font-size: var(--p_size);
+    color: var(--deg1);
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+[id*='region_'] {
+    cursor: pointer;
+}
+
+.maAppInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.infos {
+    margin: auto 0;
+    padding-left: 50px;
+
+}
+
+.boxInfos {
+    border-radius: var(--box_radius);
+    box-shadow: 5px 5px 5px var(--box_shadow);
+    padding: 50px;
+    width: 400px;
+    background-color: var(--light);
+}
+
+.boxInfos h3 {
+    font-size: var(--h2_size);
+    color: var(--deg1);
+    letter-spacing: 5px;
+    font-family: "Bebas Neue Regular";
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxInfos h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--h4_size);
+    color: var(--footer_color);
+}
+
+#home_section_4 .boxInfos .production_1 p {
+    font-family: "Arial";
+    font-size: var(--p_size);
+    color: var(--footer_color);
+    padding-left: 15px;
+    margin: auto 0;
+    width: auto;
+    padding-bottom: 0;
+}
+
+#home_section_4 .boxInfos .consommation p {
+    font-family: "Arial";
+    font-size: var(--p_size);
+    color: var(--footer_color);
+    padding-left: 85px;
+    width: auto;
+    padding-bottom: 0;
+}
+
+
+#home_section_4 .boxInfos img {
+    width: 50px;
+    padding-bottom: 0;
+}
+
+#home_section_4 .boxInfos .production_1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+#infosBretagne,
+#infosNormandie,
+#infosIleDeFrance,
+#infosHautDeFrance,
+#infosGrandEst,
+#infosPaysDeLaLoire,
+#infosCentreValDeLoire,
+#infosBourgogneFrancheComte,
+#infosAlpesCotesAzure,
+#infosNouvelleAquitaine,
+#infosRhoneAlpes,
+#infosOccitanie {
+    display: none;
+}
+
+/*****************************************************************
+                FOOTER
+*****************************************************************/
+
+#footer {
+    background-color: var(--footer_color);
+}
+
+#footer div {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+#footer .accueil,
+#footer .legal {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+#footer h3 {
+    font-family: 'Bebas Neue Regular';
+    color: var(--light);
+    font-size: var(--h3_size);
+    letter-spacing: 5px;
+}
+
+#footer a {
+    font-family: 'Arial';
+    color: var(--light);
+    font-size: var(--p_size);
+}
+
+#footer .accueil a{
+    text-align: right;
+}
+
+#footer h6 {
+    font-family: 'Arial';
+    color: var(--light);
+    font-size: var(--h6_size);
+    background-color: var(--info_color);
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+}
