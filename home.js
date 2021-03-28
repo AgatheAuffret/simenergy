@@ -42,6 +42,10 @@ $(function () {
             document.getElementById("infosNouvelleAquitaine").style.display = "none";
             document.getElementById("infosRhoneAlpes").style.display = "none";
             document.getElementById("infosOccitanie").style.display = "none";
+            document.getElementById("infosGuadeloupe").style.display = "none";
+            document.getElementById("infosGuyane").style.display = "none";
+            document.getElementById("infosMartinique").style.display = "none";
+            document.getElementById("infosReunion").style.display = "none";
         }
         
 
@@ -60,6 +64,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
 
     });
 
@@ -76,6 +84,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
 
     });
 
@@ -92,6 +104,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
 
     });
 
@@ -108,6 +124,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
 
     });
 
@@ -124,6 +144,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
 
     });
 
@@ -140,6 +164,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
 
     });
 
@@ -156,6 +184,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
     });
 
     $( "#region_provence_alpes_cotes_dazure" ).click(function() {
@@ -171,6 +203,10 @@ $(function () {
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
     });
 
     $( "#region_nouvelle_aquitaine" ).click(function() {
@@ -186,6 +222,10 @@ $(function () {
         document.getElementById("infosAlpesCotesAzure").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
     });
 
     $( "#region_auvergne_rhone_alpes" ).click(function() {
@@ -201,6 +241,10 @@ $(function () {
         document.getElementById("infosAlpesCotesAzure").style.display = "none";
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
     });
 
     $( "#region_occitanie" ).click(function() {
@@ -216,7 +260,85 @@ $(function () {
         document.getElementById("infosAlpesCotesAzure").style.display = "none";
         document.getElementById("infosNouvelleAquitaine").style.display = "none";
         document.getElementById("infosRhoneAlpes").style.display = "none";
-
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
     });
 
+    $( "#region_guadeloupe" ).click(function() {
+        document.getElementById("infosGuadeloupe").style.display = "block";
+        document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosBretagne").style.display = "none";
+        document.getElementById("infosNormandie").style.display = "none";
+        document.getElementById("infosIleDeFrance").style.display = "none";
+        document.getElementById("infosHautDeFrance").style.display = "none";
+        document.getElementById("infosGrandEst").style.display = "none";
+        document.getElementById("infosPaysDeLaLoire").style.display = "none";
+        document.getElementById("infosCentreValDeLoire").style.display = "none";
+        document.getElementById("infosBourgogneFrancheComte").style.display = "none";
+        document.getElementById("infosAlpesCotesAzure").style.display = "none";
+        document.getElementById("infosNouvelleAquitaine").style.display = "none";
+        document.getElementById("infosRhoneAlpes").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
+    });
+
+    $( "#region_guyane" ).click(function() {
+        document.getElementById("infosGuyane").style.display = "block";
+        document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosBretagne").style.display = "none";
+        document.getElementById("infosNormandie").style.display = "none";
+        document.getElementById("infosIleDeFrance").style.display = "none";
+        document.getElementById("infosHautDeFrance").style.display = "none";
+        document.getElementById("infosGrandEst").style.display = "none";
+        document.getElementById("infosPaysDeLaLoire").style.display = "none";
+        document.getElementById("infosCentreValDeLoire").style.display = "none";
+        document.getElementById("infosBourgogneFrancheComte").style.display = "none";
+        document.getElementById("infosAlpesCotesAzure").style.display = "none";
+        document.getElementById("infosNouvelleAquitaine").style.display = "none";
+        document.getElementById("infosRhoneAlpes").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
+    });
+
+    $( "#region_martinique" ).click(function() {
+        document.getElementById("infosMartinique").style.display = "block";
+        document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosBretagne").style.display = "none";
+        document.getElementById("infosNormandie").style.display = "none";
+        document.getElementById("infosIleDeFrance").style.display = "none";
+        document.getElementById("infosHautDeFrance").style.display = "none";
+        document.getElementById("infosGrandEst").style.display = "none";
+        document.getElementById("infosPaysDeLaLoire").style.display = "none";
+        document.getElementById("infosCentreValDeLoire").style.display = "none";
+        document.getElementById("infosBourgogneFrancheComte").style.display = "none";
+        document.getElementById("infosAlpesCotesAzure").style.display = "none";
+        document.getElementById("infosNouvelleAquitaine").style.display = "none";
+        document.getElementById("infosRhoneAlpes").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosReunion").style.display = "none";
+    });
+
+    $( "#region_reunion" ).click(function() {
+        document.getElementById("infosReunion").style.display = "block";
+        document.getElementById("infosOccitanie").style.display = "none";
+        document.getElementById("infosBretagne").style.display = "none";
+        document.getElementById("infosNormandie").style.display = "none";
+        document.getElementById("infosIleDeFrance").style.display = "none";
+        document.getElementById("infosHautDeFrance").style.display = "none";
+        document.getElementById("infosGrandEst").style.display = "none";
+        document.getElementById("infosPaysDeLaLoire").style.display = "none";
+        document.getElementById("infosCentreValDeLoire").style.display = "none";
+        document.getElementById("infosBourgogneFrancheComte").style.display = "none";
+        document.getElementById("infosAlpesCotesAzure").style.display = "none";
+        document.getElementById("infosNouvelleAquitaine").style.display = "none";
+        document.getElementById("infosRhoneAlpes").style.display = "none";
+        document.getElementById("infosGuadeloupe").style.display = "none";
+        document.getElementById("infosGuyane").style.display = "none";
+        document.getElementById("infosMartinique").style.display = "none";
+    });
 })

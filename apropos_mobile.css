@@ -1,0 +1,96 @@
+:root {
+    --light: #ffffff;
+    --background: #f2f2f2;
+    --deg1: #3023ae;
+    --deg2: rgba(214, 0, 255, 1);
+    --box_shadow: rgba(0, 0, 0, 0.11);
+    --footer_color: #1D176B;
+    --info_color: #1d184d;
+
+    --h2_size: 32px;
+    --h3_size: 28px;
+    --h4_size: 28px;
+    --p_size: 18px;
+
+    --box_radius: 40px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:744px) {
+
+/*****************************************************************
+                SECTION 0
+*****************************************************************/
+    .navbar {
+        position: fixed;
+        width: 100vw !important;
+        background: linear-gradient(90deg, var(--deg1) 20%, var(--deg2) 100%);
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .nav-link {
+        border: none !important;
+        padding: 10px 20px !important;
+    }
+
+    .navbar-collapse {
+        width: 100vw !important;
+        padding: 10px !important
+    }
+
+    #apropos_section_0 {
+        height: fit-content;
+        background: linear-gradient(90deg, var(--deg1) 20%, var(--deg2) 100%);
+    }
+
+    #apropos_section_0 h2 {
+        margin: 0 auto 20px auto;
+        padding-top: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #apropos_section_0 p {
+        padding:0 0 20px 0;
+        width: 60%;
+    }
+
+    svg{
+        display:none;
+    }
+
+/*****************************************************************
+                    SECTION 1
+*****************************************************************/
+    #apropos_section_1{
+        padding:0;
+    }
+    #apropos_section_1 h2{
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #apropos_section_1 #card_section{
+        margin:auto 0;
+    }
+
+    #apropos_section_1 #card{
+        margin-bottom: 50px;
+        width:90%;
+    }
+
+    #apropos_section_1 img{
+        width:150px;
+        height:150px;
+    }
+
+}

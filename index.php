@@ -17,9 +17,9 @@
     </script>
     <link rel="stylesheet" type="text/css" href="home.css">
     <link rel="stylesheet" type="text/css" href="home_mobile.css">
+    <link rel="stylesheet" type="text/css" href="home_tablette.css">
     <script src="https://code.jquery.com/jquery-1.12.0.min.js" type="text/javascript"></script>
     <script src="home.js" type="text/javascript" defer></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
 </head>
@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 p-3 d-flex justify-content-around">
                     <li class="nav-item active">
-                        <a class="nav-link h4 text-light" id="actif" href="#">Accueil</a>
+                        <a class="nav-link h4 text-light" id="actif" href="index.php">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h4 text-light" href="#">Simulation</a>
@@ -44,7 +44,7 @@
                         <a class="nav-link h4 text-light" href="#">Quiz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h4 text-light" href="#">A propos</a>
+                        <a class="nav-link h4 text-light" href="apropos.html">A propos</a>
                     </li>
                 </ul>
             </div>
@@ -70,13 +70,15 @@
 
     <div id="home_section_1">
         <h2>Introduction</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
+        <p>Simenergy est un site internet à but éducatif. <br><br>
+            Sur ce site vous trouverez du contenu éducatif sur les éoliennes, les hydroliennes et les panneaux
+            photovoltaïques. <br><br>
+            Vous avez aussi la possibilité de simuler un réseau électrique en fonction de la force de la ressource
+            naturelle (courant, vent, soleil) et de la solution choisie (hydrolienne, éolienne, photovoltaïque).
+            <br><br>
+            Et pour tester vos connaissance ne vous inquiétez pas on a tout prévu ! Un quiz de 10 questions vous
+            permettra de voir si vous avez tout compris.
+        </p>
     </div>
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 205">
@@ -92,16 +94,16 @@
     </svg>
     <div id="home_section_2">
         <h2>Quelques chiffres</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
+        <p>En France, la production d’électricité est répartie entre le nucléaire, l’hydraulique, l’éolien , le solaire,
+            le thermique et les bioénergies. Même si depuis des années le nucléaire est la source de production
+            d’électricité dominante, les énergies renouvelables gagnent du terrain de plus en plus alors que les
+            énergies fossiles voient leur production baisser.<br><br>
+            Voici un graphique permettant de voir la place des énergies renouvelables ainsi que la répartition des
+            différentes solutions d’énergies renouvelables :
+        </p>
         <img id="graphes_pc" src="./visuels/graphes_accueil.png" alt="graphiques" />
         <img id="graphes_mobile" src="./visuels/graphes_accueil_mobile.png" alt="graphiques" />
-        <h5>Part des renouvelables dans la production française d’électricité en 2017</h5>
+        <h5>Part des renouvelables dans la production française d’électricité en 2020</h5>
         <h6>Source RTE – Bilan énergétique 2017</h6>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 205">
@@ -116,48 +118,50 @@
         </path>
     </svg>
 
-    
+
     <div id="home_section_3">
         <div id="card_section">
             <div class="card">
                 <img src="./visuels/icone_eol_blue.png">
                 <h4>Eolien</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua.</p>
-                <a href="#">En savoir plus</a>
+                <p>En France, l’éolien a pris progressivement de l’ampleur. En 2020, sa part dans la production nette
+                    d'électricité du pays atteint 7,9 %. 50 % du parc éolien français est concentré dans 2 régions, à
+                    savoir, Hauts-de-France et Grand Est.</p>
+                <a href="./visuels/info_eoliennes.pdf">En savoir plus</a>
             </div>
             <div class="card">
                 <img src="./visuels/icone_hydro_blue.png">
-                <h4>Hydrolien</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua.</p>
-                <a href="#">En savoir plus</a>
+                <h4>Hydraulique</h4>
+                <p>En France, l’énergie hydraulique représente la ressource la plus importante parmi les énergies
+                    vertes. Grâce à ses nombreuses installations hydroélectriques, la France est le 2e producteur
+                    européen d’hydroélectricité, derrière la Norvège.</p>
+                <a href="./visuels/info_hydroliennes.pdf">En savoir plus</a>
             </div>
             <div class="card">
                 <img src="./visuels/icone_photo_blue.png">
                 <h4>Photovoltaïque</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua.</p>
-                <a href="#">En savoir plus</a>
+                <p>Le photovoltaïque est utilisé essentiellement pour 2 usages : la production d’électricité et la
+                    production de chaleur. </p>
+                <a href="./visuels/info_photo.pdf">En savoir plus</a>
             </div>
         </div>
     </div>
-     
+
     <div id="home_section_4">
         <h2>Consommation et production et France</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
+        <p>Pour vous donner une idée de la consommation et de la production en France métropolitaine et dans les
+            départements d’outremer, une carte interactive est à votre disposition.<br><br>
+            Cliquez sur la région de votre choix pour visualiser ses informations.
+        </p>
         <div class="maAppInfos">
             <div class="map">
                 <?php include('france.svg'); ?>
+                <div id="domtom">
+                    <?php include('guadeloupe.svg');?>
+                    <?php include('guyane.svg');?>
+                    <?php include('reunion.svg');?>
+                    <?php include('martinique.svg');?>
+                </div>
             </div>
             <div class="infos">
                 <div id="infosRegion">
@@ -437,6 +441,98 @@
                             </div>
                         </div>
                     </div>
+
+                    <div id="infosGuadeloupe" class="boxInfos">
+                        <h3>Guadeloupe</h3>
+                        <div class="consommation">
+                            <h4>Consommation</h4>
+                            <p>1.78 TWh</p>
+                        </div>
+                        <div class="production_0">
+                            <h4>Production</h4>
+                            <div class="production_1">
+                                <img src="visuels/icone_eol_dark.png" alt="icone eolienne">
+                                <p>0.05 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_photo_dark.png" alt="icone photovoltaique">
+                                <p>0.09 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_hydro_dark.png" alt="icone hydrolienne">
+                                <p>0.04 TWh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="infosGuyane" class="boxInfos">
+                        <h3>Guyane</h3>
+                        <div class="consommation">
+                            <h4>Consommation</h4>
+                            <p>0.81TWh</p>
+                        </div>
+                        <div class="production_0">
+                            <h4>Production</h4>
+                            <div class="production_1">
+                                <img src="visuels/icone_eol_dark.png" alt="icone eolienne">
+                                <p>0 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_photo_dark.png" alt="icone photovoltaique">
+                                <p>0.05 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_hydro_dark.png" alt="icone hydrolienne">
+                                <p>0.56 TWh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="infosMartinique" class="boxInfos">
+                        <h3>Martinique</h3>
+                        <div class="consommation">
+                            <h4>Consommation</h4>
+                            <p>1.41 TWh</p>
+                        </div>
+                        <div class="production_0">
+                            <h4>Production</h4>
+                            <div class="production_1">
+                                <img src="visuels/icone_eol_dark.png" alt="icone eolienne">
+                                <p>0.01 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_photo_dark.png" alt="icone photovoltaique">
+                                <p>0.08 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_hydro_dark.png" alt="icone hydrolienne">
+                                <p>0 TWh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="infosReunion" class="boxInfos">
+                        <h3>La Reunion</h3>
+                        <div class="consommation">
+                            <h4>Consommation</h4>
+                            <p>2.72 TWh</p>
+                        </div>
+                        <div class="production_0">
+                            <h4>Production</h4>
+                            <div class="production_1">
+                                <img src="visuels/icone_eol_dark.png" alt="icone eolienne">
+                                <p>0.014 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_photo_dark.png" alt="icone photovoltaique">
+                                <p>0.25 TWh</p>
+                            </div>
+                            <div class="production_1">
+                                <img src="visuels/icone_hydro_dark.png" alt="icone hydrolienne">
+                                <p>0.42 TWh</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -447,10 +543,10 @@
         <div>
             <div class="accueil">
                 <h3>Simenergy</h3>
-                <a href="#">Accueil</a>
+                <a href="index.php">Accueil</a>
                 <a href="#">Simulation</a>
                 <a href="#">Quiz</a>
-                <a href="#">A propos</a>
+                <a href="apropos.html">A propos</a>
             </div>
             <div class="legal">
                 <h3>Legal</h3>

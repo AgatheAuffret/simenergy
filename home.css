@@ -20,8 +20,7 @@
     --p_size: 18px;
 
     --box_radius: 40px;
-}
-
+} 
 
 body,
 * {
@@ -294,6 +293,17 @@ svg {
     justify-content: center;
 }
 
+#domtom{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#domtom svg{
+    width: 200px;
+    height: fit-content;
+    padding:10px;
+}
 .infos {
     margin: auto 0;
     padding-left: 50px;
@@ -366,7 +376,11 @@ svg {
 #infosAlpesCotesAzure,
 #infosNouvelleAquitaine,
 #infosRhoneAlpes,
-#infosOccitanie {
+#infosOccitanie,
+#infosGuadeloupe,
+#infosGuyane,
+#infosMartinique,
+#infosReunion {
     display: none;
 }
 
